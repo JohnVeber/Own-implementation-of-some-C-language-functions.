@@ -1,4 +1,4 @@
-/* My_swap_function_1.0.1.c*/
+/* My_swap_function_1.0.2.c*/
 /* This program is the third attempt to realise swap function in C */
 /* To achieve the goal of this program pointers are used as well as in previous version*/
 /* The function works for integers only at this version of program */
