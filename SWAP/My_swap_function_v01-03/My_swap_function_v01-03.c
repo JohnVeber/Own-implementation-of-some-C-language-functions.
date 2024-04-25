@@ -1,13 +1,9 @@
-/* My_swap_function_1.0.2.c*/
-/* This program is the third attempt to realise swap function in C */
-/* To achieve the goal of this program pointers are used as well as in previous version*/
-/* The function works for integers only at this version of program */
+/* My_swap_function_v01-03.c*/
 
-/*New feature: Implemented the ability to enter values, which need to be swapped.*/
+//Task: divide program to the main .c file and header file which will be included during a compilation
 
 #include <stdio.h>
-
-void swap_i (int *pc, int *pd); // Function declaration
+#include "swap_func.h"
 
 int main (void)
 {
@@ -29,20 +25,15 @@ int main (void)
     }
 }
 
-void swap_i(int *pc, int *pd) // Function definition
-{
-    int t = *pc;
-    *pc = *pd;
-    *pd = t;
-    return;
-}
+
 
 
 // Bugs reported:
+
 // Bug №1 No protection against integer overflow.
 
 
 
 // Problems found:
-//  №1 An ability to exit the program by pressing a preliminary key\
- (e.g. "q") is not implemented.
+
+//  №1 An ability to exit the program by pressing a preliminary key (e.g. "q") is not implemented.

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hello",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "My_swap_function_v01-03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-My_swap_function_v01-03-Debug-4b6d3ed08c83886fd73b.json",
+					"name" : "My_swap_function_v01-03",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/build",
+		"source" : "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

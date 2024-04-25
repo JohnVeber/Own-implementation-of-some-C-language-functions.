@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/build",
+  "command": "/usr/bin/gcc-12   -g -o CMakeFiles/My_swap_function_v01-03.dir/My_swap_function_v01-03.c.o -c /home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/My_swap_function_v01-03.c",
+  "file": "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/My_swap_function_v01-03.c"
+},
+{
+  "directory": "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/build",
+  "command": "/usr/bin/gcc-12   -g -o CMakeFiles/My_swap_function_v01-03.dir/swap_func.c.o -c /home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/swap_func.c",
+  "file": "/home/john_ubuntu_1/PROJECTS/C_learning_tasks/My_swap_function/Old_versions/My_swap_function_v01-03/swap_func.c"
+}
+]
