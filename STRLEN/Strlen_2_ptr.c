@@ -4,10 +4,10 @@
 
 int mystrlen(char *arr){
     int i = 0;
-    char *finish = arr;
+    char *start = arr;
     while (*(arr + i) != '\0')
         i++;
-    return ((arr + i) - finish);
+    return ((arr + i) - start);
 }
 
 int main(void){
