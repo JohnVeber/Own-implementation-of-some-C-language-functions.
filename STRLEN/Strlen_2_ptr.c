@@ -2,16 +2,18 @@
 // Using sizeof function
 #include <stdio.h>
 
-int mystrlen(char *arr, char *finish){
+int mystrlen(char *arr){
     int i = 0;
-    while (arr[i] != finish[i])
+    char *finish = arr;
+    while (*(arr + i) != '\0')
         i++;
-    return i;
+    return ((arr + i) - finish);
 }
 
 int main(void){
     char *string = "ljkfd0-shg";
-    char *end = (&string + sizeof(string)); // pointer for the last array element
-    printf ("There are %d characters in this row.\n\n", mystrlen(string, end));
+    printf ("There are %d characters in this row.\n\n", mystrlen(string));
     return 0;
 }
+
+// Correct answer - 10 characters.
