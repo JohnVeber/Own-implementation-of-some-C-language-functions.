@@ -1,3 +1,4 @@
+/* Strlen_1 - find out a quantity of characters in an input stream. */
 #include <stdio.h>
 
 size_t mystrlen(const char *arr){
@@ -17,3 +18,5 @@ int main(void){
 
     return 0;
 }
+
+/* Correct output - 11 characters. */ 

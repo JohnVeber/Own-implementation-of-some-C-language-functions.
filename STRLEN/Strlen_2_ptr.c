@@ -1,5 +1,5 @@
-// Refactoring function Strlen_1 with 2 pointers
-// Using sizeof function
+/* Refactoring function Strlen_1 with 2 pointers */ 
+/* Using sizeof function. */
 #include <stdio.h>
 
 int mystrlen(char *arr){
@@ -16,4 +16,4 @@ int main(void){
     return 0;
 }
 
-// Correct answer - 10 characters.
+/* Correct output - 10 characters.*/ 
