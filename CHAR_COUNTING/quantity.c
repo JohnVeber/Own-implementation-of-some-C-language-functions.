@@ -8,8 +8,10 @@ int main(void){
     char reference = 'd';
 
     int result = foo(str, reference);
-    if(result == 3)
+    if(result == 3){
+        printf("There are %d reference chars '%c' in this test string\n",result, reference);
         printf("Test complete");
+    }
         else
         printf("Test failed");
       

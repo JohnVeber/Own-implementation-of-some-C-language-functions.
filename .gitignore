@@ -52,4 +52,6 @@ Mkfile.old
 dkms.conf
 
 # My personal folders which need to be ignored
-**/temp
+*/temp
+*/.vscode
+*/build
